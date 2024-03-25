@@ -8,11 +8,14 @@ int linesensor_data[5] = {0,0,0,0,0};      // 읽은 값을 저장할 변수
 
 int linesensor_pin[5] = {2,3,4,5,6};
 
-void setup() {
-  int i;
-  pinMode(ledPin, OUTPUT);    //디지털 핀 13을 출력으로 설정
+void setup() {  
+
+  int i;  
   
-  for(i=0;i<5;i++)
+  pinMode(ledPin, OUTPUT);    //디지털 핀 13을 출력으로 설정  
+  
+  for(i=0;i<5;i++)  
+  
   {
     pinMode(linesensor_pin[i], INPUT);   // 디지털 linesenor_pin들을 입력으로 설정
   }
