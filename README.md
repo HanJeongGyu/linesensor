@@ -2,8 +2,10 @@
 
 
 
-#define ledPin 13  // LED는 디지털 핀 13에 연결됨
-int linesensor_data[5] = {0,0,0,0,0};      // 읽은 값을 저장할 변수
+#define ledPin 13  // LED는 디지털 핀 13에 연결됨  
+
+int linesensor_data[5] = {0,0,0,0,0};      // 읽은 값을 저장할 변수  
+
 int linesensor_pin[5] = {2,3,4,5,6};
 
 void setup() {
